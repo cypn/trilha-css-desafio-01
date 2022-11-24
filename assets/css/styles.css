@@ -1,0 +1,169 @@
+@import url('reset.css');
+body{
+    background-color: black;
+    color: white;
+}
+.banner {
+    height: 605px;
+    left: 0px;
+    right: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), 
+    rgba(49, 168, 221, 0.2) , rgba(0, 0, 0, 0.6)), url('../images/banner.png');
+    background-size: cover;
+    padding-top: 56px;
+    border-bottom: 1px solid #33A8DB;
+    margin-bottom: 64px;
+}
+.banner .banner-content{
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    align-items: center;
+}
+.banner h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    background: -webkit-linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    margin: 16px;
+}
+.banner .logo{
+    width: 268px;
+    height: 268px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: 27px 10px;
+    margin: 0px calc(300px - (268px / 2));
+}
+.banner .logo img{
+    object-fit: contain;
+}
+.banner p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.banner button{
+    background-color: transparent;
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    background: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding: 19px 46px;
+    border-image-slice: 20;
+    letter-spacing: 0.21em;
+    margin: 24px 0 75px;
+}
+#course-content, #professional-challenges{
+    text-align: center;
+    width: 800px;
+    margin: 120px auto;
+}
+h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.module{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 127px;
+    gap: 10px;
+    width: 535px;
+    height: 51px;
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+    margin: 24px auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+}
+.module span{
+    color: #33A8DB;
+}
+#transform-world{
+    background-image: url('../images/woman-code.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 560px;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+    padding: 200px;
+}
+#transform-world p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    width: 244px;
+    height: 141px;
+    text-align: left;
+    text-transform: lowercase;
+}
+#professional-challenges img{
+     margin: 40px;
+}
+footer{
+    border-top: 2px solid;
+    border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    border-image-slice: 20;
+    padding: 60px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+footer img{
+    margin: auto;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(51, 168, 219, 1)
+}
